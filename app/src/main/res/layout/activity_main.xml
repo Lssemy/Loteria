@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#1E1E2F">
+
+    <TextView
+        android:id="@+id/txtNumeros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Números da Loteria"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFD700" />
+
+    <Button
+        android:id="@+id/btnGerar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF4081"
+        android:padding="16dp"
+        android:text="Gerar Números"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnListar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#3F51B5"
+        android:padding="16dp"
+        android:text="Ver Histórico"
+        android:textColor="#FFFFFF" />
+
+    <ListView
+        android:id="@+id/listViewDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#2E2E3F"
+        android:divider="#FFD700"
+        android:dividerHeight="2dp"/>
+</LinearLayout>
